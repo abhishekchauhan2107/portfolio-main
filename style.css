@@ -1,7 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans:wght@300;400&family=Source+Code+Pro:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+   display: flex;
+   background-color:  #006699;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    height: 10vh;
+}
+.navbar>*{
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+    
+}
+a:visited {
+  
+    color: white;
+    text-decoration: none; /* Remove underline */
+  }
+a:hover {
+    
+    color: white;
+    
+    font-weight: bold;
+    font-size: larger;
+  }
+a:active {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    
+  }
+
+.photo{
+   
+    height: 160px;
+    width: 150px;
+    float: right;
+    top:0;
+    border-radius: 50%;
+}
+.main {
+   align-self: flex-start;
+} 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 5px;
+   
+    height: 80vh;
+   
+}
 footer {
-    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    bottom: 0%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 5px;
     background-color: #abbaba;
     color: #000;
+}
+
+.logo_image{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    border-radius: 50%;
+    }
+.infocontainer{
+    margin-left: 10px;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Nanum Myeongjo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
+.hello{
+font-size: 70px;
+}
+.name{
+font-size: 60px;
+font-weight: bold;
+}
+.about{
+font-size: 30px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+padding: 9px 14px ;
+border-radius: 22px ;
+border-color: blue;
+color: rgb(254, 254, 254);
+background-color: blue;
+font-size: 21px;
+margin: 0 3 px;
+cursor: pointer;
+}
+.btn-sm{
+font-size: 15px;
+margin-top: 12px;
+padding: 10px 19px;
+}
+.btn:hover{
+background-color: white;
+color :black ;
+border-color: black;
+}
+.contactform h1{
+    
+    text-align: center;
+}
+.contactform{
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 34px;
+     
+}
+.contactform div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input {
+   width: 16vw;
+   border-radius:  5px;
+   margin: 6px 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 9px;
+    color: red;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#cmessage{
+    padding-top: 3px;
+    padding-left: 5px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    margin :6px 0;
+    border-width: 2px;
+}
+.intro h1{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+margin: 12px;
+}
+.intro p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+margin: 12px;
+}
+.skillcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-weight: 800;
+    padding: 12px;
+}
+.skillitem{
+
+    /*display: flex;*/
+    align-items: center;
+}
+.skill{
+    margin: 10px;
+    
+    width: 265px;
+    height: 6px;
+    background-color: red;
+
+}
+.hundered{
+    background-color: rgb(70, 247, 70);
+    width: 265px;
+}
+.nine{
+    background-color: greenyellow;
+    width:215px;
+}
+.fifty{
+    background-color: yellow;
+    width: 175px;
+}
+.t5{
+    width: 100px;
+}
+.wave {
+    animation-name: wave-animation;  
+    animation-duration: 2.5s;        
+    animation-iteration-count: infinite;  
+    transform-origin: 70% 70%;       
+    display: inline-block;
   }
   
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     /* 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause 
+    100% { transform: rotate( 0.0deg) } */
+  }
