@@ -8,20 +8,14 @@
     padding: 0;
 }
 
-
-
-.photo{
-   
-    height: 160px;
-    width: 150px;
-    float: right;
-    top:0;
-    border-radius: 50%;
-}
 .main {
    align-self: flex-start;
 } 
 
+.bg {
+    background-color: rgb(246, 221, 204 );
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
 
 
 .logo_image{
@@ -38,24 +32,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-family: 'Nanum Myeongjo', serif;
-font-family: 'Open Sans', sans-serif;
 font-family: 'Source Code Pro', monospace;
 }
-.hello{
-font-size: 70px;
-}
-.name{
-font-size: 60px;
-font-weight: bold;
-}
-.about{
-font-size: 30px;
-}
-.moreabout{
-    font-size: 25px;
-    margin-top: 20px;
-}
+
 .buttons{
     margin-top: 34px;
 }
@@ -126,14 +105,23 @@ margin: 12px;
 }
 .skillcontainer{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
     font-weight: 800;
     padding: 12px;
+}
+@media (max-width:550px){
+    .skillcontainer{
+        display: flex;
+        flex-direction: column;
+        font-weight: 800;
+        padding: 12px;
+    }
 }
 .skillitem{
 
     /*display: flex;*/
     align-items: center;
+    margin: 10px;
 }
 .skill{
     margin: 10px;
@@ -143,17 +131,7 @@ margin: 12px;
     background-color: red;
 
 }
-@media (max-width : 605){
-    .photo{
-   
-        height: 50px;
-        width: 40px;
-        float: right;
-        top:0;
-        display: none;
-        border-radius: 50%;
-    }
-}
+
 .hundered{
     background-color: rgb(70, 247, 70);
     width: 265px;
