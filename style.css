@@ -154,6 +154,9 @@ margin: 12px;
     transform-origin: 70% 70%;       
     display: inline-block;
   }
+  .footer{  
+    margin-bottom: 0;
+ }
   
   @keyframes wave-animation {
       0% { transform: rotate( 0.0deg) }
