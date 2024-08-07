@@ -8,38 +8,7 @@
     padding: 0;
 }
 
-.navbar {
-   display: flex;
-   background-color:  #006699;
-    font-family: 'Open Sans', sans-serif;
-    align-items: center;
-    height: 10vh;
-}
-.navbar>*{
-    margin-left: 2%;
-    margin-right: 2%;
-    text-decoration: none;
-    color: white;
-    
-}
-a:visited {
-  
-    color: white;
-    text-decoration: none; /* Remove underline */
-  }
-a:hover {
-    
-    color: white;
-    
-    font-weight: bold;
-    font-size: larger;
-  }
-a:active {
-    color: black;
-    font-weight: bold;
-    font-size: larger;
-    
-  }
+
 
 .photo{
    
@@ -53,30 +22,7 @@ a:active {
    align-self: flex-start;
 } 
 
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-top: 5px;
-   
-    height: 80vh;
-   
-}
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 10;
-    display: flex;
-    bottom: 0%;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 5px;
-    background-color: #abbaba;
-    color: #000;
-}
+
 
 .logo_image{
     height: 40px;
@@ -196,6 +142,17 @@ margin: 12px;
     height: 6px;
     background-color: red;
 
+}
+@media (max-width : 605){
+    .photo{
+   
+        height: 50px;
+        width: 40px;
+        float: right;
+        top:0;
+        display: none;
+        border-radius: 50%;
+    }
 }
 .hundered{
     background-color: rgb(70, 247, 70);
