@@ -20,7 +20,7 @@ body{
 } 
 
 .bg {
-    background-color: rgb(246, 221, 204 );
+    background-color: #966F33;;
     /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
 }
 
@@ -66,12 +66,13 @@ color :black ;
 border-color: black;
 }
 .contactform h1{
-    
+    color: white;
     text-align: center;
 }
 .contactform{
     font-family: 'Open Sans', sans-serif;
     padding: 50px 34px;
+    color: white;
      
 }
 .contactform div{
@@ -84,6 +85,7 @@ border-color: black;
    border-radius:  5px;
    margin: 6px 0;
    padding: 3px;
+    color: white;
 }
 #emailHelp{
     font-size: 9px;
@@ -103,12 +105,14 @@ border-color: black;
 .intro h1{
     font-family: 'Nanum Myeongjo', serif;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 margin: 12px;
 }
 .intro p{
     font-family: 'Nanum Myeongjo', serif;
     font-family: 'Open Sans', sans-serif;
 margin: 12px;
+    color: white;
 }
 .skillcontainer{
     display: grid;
