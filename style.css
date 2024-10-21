@@ -39,6 +39,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color : white;
 font-family: 'Source Code Pro', monospace;
 }
 
@@ -62,7 +63,7 @@ padding: 10px 19px;
 }
 .btn:hover{
 background-color: white;
-color :black ;
+color :white ;
 border-color: black;
 }
 .contactform h1{
@@ -119,6 +120,7 @@ margin: 12px;
     grid-template-columns: repeat(2,1fr);
     font-weight: 800;
     padding: 12px;
+    color : white;
 }
 @media (max-width:750px){
     .skillcontainer{
@@ -137,6 +139,7 @@ margin: 12px;
     /*display: flex;*/
     align-items: center;
     margin: 10px;
+    color : white;
 }
 .skill{
     margin: 10px;
@@ -144,6 +147,7 @@ margin: 12px;
     width: 265px;
     height: 6px;
     background-color: red;
+    color : white;
 
 }
 
