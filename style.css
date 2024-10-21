@@ -9,7 +9,7 @@
 }
 
 body{
-    background-image: url('./access/backg.jpg');
+    background-image: url('./access/background.jpg');
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents repeating the image */
     background-position: center; /* Centers the background image */
